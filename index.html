@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fahreza's page</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container-fluid bg-dark border-bottom border-body" data-bs-theme="dark">
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                    <span class="fs-4"><img src="./images/ramen.png" alt="" width="40px"> Faiq Fahreza</span>
+                </a>
+
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </header>
+        </div>
+    </header>
+    <section id="home" class="home container">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-2"></div> <!-- Empty column for spacing on smaller screens -->
+            <div class="col-12 col-md-5">
+                <h2>Hello, I'm</h2>
+                <h1>Faiq Fahreza</h1>
+                <p>an Electrical Engineer Student</p>
+                <a href="./CV_Faiq Fahreza.pdf" download="" class="btn btn-outline-dark">CV</a>
+            </div>
+            <div class="col-12 col-md-5">
+                <img src="./images/Red Gradient Profile Photo Instagram Post.png" alt="" width="450">
+            </div>
+            <div class="col-12 d-flex justify-content-center align-items-center flex-column">
+                <a id="overview" href="#about">Profile Overview</a>
+                <img id="arrow" src="./images/down-arrow (3).png" alt="">
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div id="about" class="d-flex justify-content-around">
+            <div class="card text-bg-dark mb-3" id="myCard" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="./images/5cac8c71-ade1-4bd5-96b3-bdc2d28b1040.jpg" alt="" style="max-width: 100%;" width="200px">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold" style="color: #068FFF;">About Me</h5>
+                            <p class="card-text">Hey there! I'm Faiq Fahreza, a passionate Junior Electrical Engineering student at ITS. When I'm not immersed in circuits and projects, you'll find me conquering virtual realms in thrilling games and indulging in scrumptious cookies to fuel my adventures! 🎮🍪</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-around mt-4">
+            <button class="btn btn-dark" id="moreinfo" onclick="toogleDetail(event)">Less info</button>
+        </div>
+        <div class="container card text-bg-dark border-primary mb-3" style="max-width: 70rem;">
+            <div class="container card text-bg-dark border-primary">
+                <h3>Who am i</h3>
+                <p>4th Year Student in Electrical Engineering at Sepuluh Nopember Institute of Technology. Familiar with and continually developing skills in electrical engineering and programming. Currently enhancing communication skills as I believe that effective communication is the key to success in any organization.</p>
+            </div>
+            <div class="container card text-bg-dark border-primary mb-3">
+                <h4>EDUCATION</h4>
+                <hr>
+                <h6><b>Sepuluh Nopember Institute of Technology</b></h6>
+                <h6><b>Electrical Engineering</b></h6>
+                <ul>
+                    <li>GPA: 3.26/4.00 (116 credits)</li>
+                </ul>
+                <p><b>Area of Interest</b>: Artificial Intelligence, Machine Learning, Web Development, Mobile App Development, Robotics, Game Development, Internet of Things, PCB Design</p>
+                <p><b>Coursework</b>: Mathematics I, Mathematics II, Physics I, Physics II, Chemistry I, Introduction to Electrical Technology, Basic Programming, English Language, Indonesian Language, Pancasila (Ethics), Citizenship Education, Electric Circuits, Advanced Electric Circuits, Linear Algebra and Discrete Mathematics, Introduction to Telecommunication Systems & Networks, Electronic Circuits, Electromagnetic Fields, Ordinary and Partial Differential Equations, Basics of Power Systems, Digital Systems and Microprocessors, Basics of Control Systems, Probability, Statistics, and Stochastic Processes, Analog Circuits, Numerical Methods</p>
+            
+                <h6><b>SMAN 1 SIDOARJO</b></h6>
+                <ul>
+                    <li>Final Grade (Math & Science): 86.58/100</li>
+                </ul>
+                <br>
+                <h6><b>ORGANIZATIONAL EXPERIENCE</b></h6>
+                <hr>
+                <h6><b>IT Staff | Ini Lho! ITS (2021)</b></h6>
+                <ul>
+                    <li>Provided virtual conference platform, presentation materials, and equipment</li>
+                    <li>Supervised open house exams</li>
+                </ul>
+                <h6><b>Security Division | SKI</b></h6>
+                <ul>
+                    <li>Developed and implemented security policies, protocols, and procedures</li>
+                </ul>
+                
+                <h6><b>External Relations Staff | LPM 1.0 (2022)</b></h6>
+                <ul>
+                    <li>Introduced LPM 1.0 student organization during UKM Expo</li>
+                    <li>Maintained good relationships with LPM 1.0 student organizations at other campuses</li>
+                </ul>
+                
+                <h6><b>Committee for the Election of HIMATEKTRO ITS (2022)</b></h6>
+                <ul>
+                    <li>Created captions for social media posts related to HIMATEKTRO election information</li>
+                    <li>Served as notetaker during pre-election debates</li>
+                </ul>
+                
+                <h6><b>Secretary of Cadre Development Team HIMATEKTRO ITS (2022)</b></h6>
+                <ul>
+                    <li>Developed a concept for cadre development based on AKL, ARM, and existing fundamental laws</li>
+                    <li>Supervised and organized planned activities</li>
+                    <li>Gathered data on new students</li>
+                </ul>
+                
+                <h6><b>Lead Organizer, Self-Improvement Webinar: A Way For A Meaningful Life</b></h6>
+                <ul>
+                    <li>Established necessary divisions to run the webinar</li>
+                    <li>Responsible for the successful execution of the webinar</li>
+                </ul>
+                
+                <h6><b>Laboratory Assistant, Systems and Cybernetics Laboratory, ITS</b></h6>
+                <ul>
+                    <li>Supervised and guided students during Signal and System lab sessions</li>
+                    <li>Supervised and guided students during Signal and System lab sessions</li>
+                </ul>
+                <br>
+                <h6><b>TRAINING EXPERIENCE</b></h6>
+                <hr size="5" noshade="0">
+                <h6><b>LKMW TD</b></h6>
+                <ul>
+                    <li>Training aimed at introducing entrepreneurship in the academic environment</li>
+                </ul>
+                
+                <h6><b>LKMM Pra-TD</b></h6>
+                <ul>
+                    <li>Training aimed at developing effective self-management skills</li>
+                </ul>
+                
+                <h6><b>LKMM TD</b></h6>
+                <ul>
+                    <li>Training on managerial knowledge and skills for managing various student organizations</li>
+                </ul>
+                
+                <h6><b>WARNING (Workshop and Training), Introduction and Simulation of Arduino</b></h6>
+                <ul>
+                    <li>Training aimed at introducing Arduino and its operation</li>
+                </ul>
+                
+                <h6><b>PKTI TD</b></h6>
+                <ul>
+                    <li>Provided insights on how to write quality scientific papers, including topic selection and title formulation</li>
+                </ul>
+                
+                <h6><b>Machine Learning Developer for Beginner Bootcamp by IDCAMP x DICODING</b></h6>
+                <ul>
+                    <li>Basic machine learning learning, including library usage and types of machine learning, conducted online</li>
+                </ul>
+                <br>
+                <h6><b>SKILLS</b></h6>
+                <hr>
+                <h6>Python 3 | Basic C++ | Photoshop | Adobe Illustrator | MS Excel | Eagle | Analytical Thinking | Arduino | Fullstack Web Dev</h6>
+            </div>
+        </div>
+        <div class="proties d-flex justify-content-center align-items-center flex-column">
+            <a id="overview" href="#projects">Projects and Activities</a>
+            <img id="arrow" src="./images/down-arrow (3).png" alt="">
+        </div>
+    </section>
+    <section id="conjects">
+        <div class="container">
+            <section>
+                <div id="projects" class="px-4 container">
+                    <h2 class="pb-2 border-bottom section-title">Projects</h2>
+                </div>
+                <div class="container">
+                    <div class="card project1">
+                        <div class="row g-0">
+                            <div class="col-md-4 d-flex align-items-center justify-content-center">
+                                <img class="paiq" src="./images/Atmega32-microcontroller-ic.jpg" alt="paiq" height="250px">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h1 class="card-title">Microcontroller PCB Design and Prototyping</h1>
+                                    <p class="card-text heading-p1">
+                                        Designed the layout of the microcontroller circuit on the PCB matrix, ensuring optimal placement of components for efficient signal flow and minimal interference.
+                                        With precision and attention to detail, I arranged a diverse range of electronic components, including microcontrollers, sensors, resistors, capacitors, and more, in an organized and space-efficient manner.
+                                        Through soldering techniques, I meticulously connected the components, ensuring robust electrical connections and long-lasting performance.
+                                        I successfully fabricated and tested the PCB prototype, identifying and rectifying any potential issues during the testing phase.
+                                        As part of the design process, I prioritized miniaturization, aiming to create a compact and sleek microcontroller system for various applications.
+                                        The microcontroller PCB demonstrated seamless functionality, enabling smooth communication and control between different electronic devices.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+    </section>
+    
+    <section id="contact-box">
+        <div class="proties d-flex justify-content-center align-items-center flex-column">
+            <a id="overview" href="#contact">Reach Out</a>
+            <img id="arrow" src="./images/down-arrow (3).png" alt="">
+        </div>
+        <div class="contactinfo container mb-5" id="contact">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1>Contact Me</h1>
+                    <p>If you'd like to get in touch with me, whether it's for business inquiries or just to say hello, feel free to reach out. I'm always open to new opportunities and collaborations.</p>
+                    <div class="row">
+                        <div class="col-4 mt-4">
+                            <div class="d-flex flex-column align-items-center">
+                                <img src="./images/instagram.png" alt="Social Icon 1" width="50px">
+                                <p class="mt-2">faiq_fahreza</p>
+                            </div>
+                        </div>
+                        <div class="col-4 mt-4">
+                            <div class="d-flex flex-column align-items-center">
+                                <img src="./images/linkedin.png" alt="Social Icon 2" width="50px">
+                                <p class="mt-2">Faiq Fahreza</p>
+                            </div>
+                        </div>
+                        <div class="col-4 mt-4">
+                            <div class="d-flex flex-column align-items-center">
+                                <img src="./images/line.png" alt="Social Icon 3" width="50px">
+                                <p class="mt-2">baloonkotak</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-6">
+                    <form class="contact-form" onsubmit="onformsubmit(event);">
+                        <div class="mb-3">
+                            <label for="Email1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="Message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4"></textarea>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button type="submit" class="btn btn-outline-dark">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div> 
+    </div>
+    </section>
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous" class="col-6"></script>
+</body>
+</html>

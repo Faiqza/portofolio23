@@ -1,0 +1,15 @@
+4 Section :
+- Home
+- About
+- Work
+- contact
+
+requirement : 
+- Responsive dengan bootstrap gridding system dan media query
+- min 3 component bootstrap
+- jquery untuk manipulate event
+- jquery untuk animasi
+- animasi dengan keyframe
+- menggunakan pseudoclass css
+- menggunakan css filter
+- Host pada github
